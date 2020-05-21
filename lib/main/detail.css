@@ -1,0 +1,67 @@
+.detail-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 100;
+}
+
+.ul-height{
+  line-height: 60px;
+  font-size: 32px;
+}
+.title-box{
+  height: 100%;
+  line-height: 60px;
+}
+
+.title-box h2{
+  text-align: center;
+}
+
+.novel-view{
+  margin: 24px 0;
+  min-height: 300px;
+}
+
+.novel-view h1{
+  text-align: center;
+  padding: 12px 0;
+}
+
+.novel-view p{
+  text-indent: 2em;
+  padding: 12px 0;
+}
+
+.mask{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, .4);
+  display: flex;
+}
+
+.menu{
+  position: fixed;
+  width: 40%;
+  top: 60px;
+  bottom: 0;
+  background: #2F4056;
+}
+
+.black{
+  position: fixed;
+  left: 40%;
+  top: 60px;
+  bottom: 0;
+  right: 0;
+  
+}
+.hidden{
+  display: none;
+}

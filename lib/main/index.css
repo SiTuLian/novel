@@ -1,0 +1,68 @@
+.header-content-padding{
+  padding: 16px 0 0 16px;
+}
+
+.header-content-text-indent{
+  text-indent: 2em;
+}
+
+.header{
+  padding: 16px 0;
+  margin-bottom: 24px;
+}
+
+.book-img-box{
+  height: 120px;
+  border: 1px solid #000;
+  background-image: url('../../images/maid2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content-center{
+  text-align: center;
+}
+
+
+.novel-list-item{
+  /* overflow: hidden; */
+  height: 122px;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  .novel-list-item{
+    /* overflow: hidden; */
+    height: 162px;
+    position: relative;
+  }
+
+  .book-img-box{
+    height: 160px;
+  }
+}
+
+.novel-list-btn{
+  position: relative;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.full-height{
+  height: 100%;
+}
+
+.xs-btn{
+  width: 100%;
+  margin: 12px 0;
+}
+
+.active-btn:hover{
+  border-radius: 16px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lib/layui/css/layui.css">
+  <link rel="stylesheet" href="lib/main/index.css">
+  <title>Document</title>
+</head>
+<body >
+
+  <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- header 头部 -->
+  <header class="layui-bg-green header">
+    <h1 class="header-content-padding">我的小书屋</h1>
+    <h2 class="header-content-padding">艺术就是爆炸</h2>
+    <p class="header-content-padding header-content-text-indent">小说只是业余爱好，不定时更新，毕竟不是主职业，而且也不打算靠小说赚钱，听说起点签约后，版权就是他们的了，那还是算了。
+      自己搭个小网站也能让读者看到，所有书籍承诺免费。
+      当然读者老爷们如果有些闲钱，看了觉得内容满意，<strong >给俺打赏个几块钱当做是零花钱，俺也是不会拒绝的。</strong></p>
+  </header> <!-- header 头部 -->
+
+  <main>
+    <div class="layui-row novel-list-item">
+ 
+      <div class="layui-col-lg1 layui-col-sm2 layui-col-xs3 " >
+        <div class="layui-row">
+          <div class="layui-col-lg10 layui-col-lg-offset1 
+          layui-col-sm10 layui-col-sm-offset1 
+          layui-col-xs10 layui-col-xs-offset1">
+            <div class="book-img-box"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="layui-col-lg10 layui-col-sm8 layui-col-xs9">
+        <div class="layui-row" style="margin-bottom: 4px;">
+          <div class="layui-col-sm12 layui-col-xs12">
+            类型：<span class="layui-badge layui-bg-orange">玄幻</span>
+            <span class="layui-badge layui-bg-green">热血</span>
+            <span class="layui-badge layui-bg-cyan">冒险</span>
+            <span class="layui-badge layui-bg-blue">二次元</span>
+          </div>
+        </div>
+
+        <div class="layui-row">
+          <div class="layui-col-sm12 layui-col-xs12">
+            <p>简介：这里有手握雷霆，刀斩苍穹的魔斗者；
+              这里有燃烧一切的火焰，冻结时间的寒流；
+              这里有全知全能的炼金术师，
+              这是一个包罗万象，万族林立的世界。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="layui-col-lg1 layui-col-sm2 full-height layui-hide-xs">
+
+        <a class="novel-list-btn layui-btn layui-btn-primary active-btn " href="./detail.html">
+          <div>阅</div>
+          <div>读</div>
+        </a>
+       
+      </div>
+    </div>
+    <div class="layui-row">
+      <div class="layui-col-lg1 layui-col-sm2 layui-col-xs3 content-center">书名未定</div>
+      <div class="layui-col-lg2  layui-col-lg-offset9 content-center 
+      layui-col-sm2 layui-col-sm-offset8 
+      layui-col-xs3 layui-col-xs-offset6" >时间：XXXX</div>
+    </div>
+
+    <div class="layui-row layui-show-xs-block layui-hide-sm">
+      <div class="layui-col-xs12">
+        <a class="xs-btn layui-btn layui-btn-primary active-btn " href="./detail.html">阅读</a>
+      </div>
+    </div>
+
+    <hr class="layui-bg-green">
+  </main>
+  <script src="lib/layui/layui.js"></script>
+  <script src="lib/js/index.js"></script>
+</body>
+</html>
